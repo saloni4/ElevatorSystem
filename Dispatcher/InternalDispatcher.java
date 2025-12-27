@@ -5,7 +5,7 @@ import controller.ElevatorController;
 public class InternalDispatcher {
     private static InternalDispatcher INSTANCE = new InternalDispatcher();
 
-    public InternalDispatcher getINSTANCE(){
+    public static InternalDispatcher getINSTANCE(){
         return INSTANCE;
     }
 

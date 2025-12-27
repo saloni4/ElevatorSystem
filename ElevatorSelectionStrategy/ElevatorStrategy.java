@@ -6,5 +6,5 @@ import enums.ElevatorDirection;
 import java.util.List;
 
 public interface ElevatorStrategy {
-    void selectElevator(List<ElevatorController> controllers, int floorNumber, ElevatorDirection elevatorDirection);
+    ElevatorController selectElevator(List<ElevatorController> controllers, int floorNumber, ElevatorDirection elevatorDirection);
 }
